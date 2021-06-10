@@ -1,0 +1,15 @@
+{
+    "artisan.docker.enabled": true,
+    "artisan.docker.command": "docker-compose exec mage5-app",
+    "intelephense.files.exclude": [
+        "**/.git/**",
+        "**/.docker/**",
+        "**/.svn/**",
+        "**/.hg/**",
+        "**/CVS/**",
+        "**/.DS_Store/**",
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/vendor/**/{Test,test,Tests,tests}/**"
+    ]
+}

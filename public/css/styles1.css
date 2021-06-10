@@ -1,0 +1,1126 @@
+@font-face {
+  font-family: 'Montserrat';
+}
+
+html, body 
+{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#particles-js{
+   position: absolute;
+top:0;
+width: 100%;
+height: 100%;
+overflow: hidden;
+background: transparent;
+z-index: -2
+}
+
+h1,h2,h3{
+    color: white;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+a:hover
+{
+    color: white;
+    text-decoration: none;
+}
+body
+{
+    font-family: 'Montserrat';
+}
+
+.devcomtitle
+{
+    font-family: 'Montserrat';
+    font-size: 30px;
+    
+}
+
+.kotak-hadiah
+{
+    background-color: #241151;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 70px;
+    border-radius: 15px;
+    font-size: 45px;
+	transition:all .2s ease-in-out;
+}
+.kotak-hadiah:hover{
+	transform: translateX(-50%) scale(1.1  );
+}
+#esport.kotak-hadiah
+{
+    width: 45%;
+}
+
+
+.list-list{
+	padding:0 0 0 0;
+	font-size:18px;
+	margin-bottom:30px;
+	margin-top:20px;
+    text-align: left;
+}
+.list-list-col1{
+	float:left;
+	width:63px;
+	margin-top:7px;    
+}
+
+.list-list-col1-a{
+	float:left;
+	width:63px;
+    font-size: 40px;
+	margin-top:10px;  
+	margin-bottom:10px;        
+}
+
+.list-list-col1 i{
+	font-style:normal;
+	font-size:48px;
+	display:block;
+	color:white;
+	line-height:38px;
+}
+
+
+
+.deskripsi{
+	font-size:20px;
+	color:white;    
+}
+
+.section
+{
+    text-align: center;
+    font-size: large;
+    letter-spacing: 0.75px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.judulSection
+{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.margin-check 
+{
+    display: inline-block;
+    position: relative;
+}
+  
+.margin-check:after 
+{
+    position: absolute;
+    content: '';
+    border-bottom: 5px solid #00c2ba;
+    width: 120%;
+    transform: translateX(-50%);
+    bottom: -15px;
+    left: 50%;
+}
+.margin-check-jawaban 
+{
+    display: inline-block;
+    position: relative;
+}
+  
+.margin-check-jawaban:after 
+{
+    position: absolute;
+    content: '';
+    border-bottom: 5px solid #00c2ba;
+    width: 100%;
+    transform: translateX(-50%);
+    bottom: -15px;
+    left: 50%;
+}
+#section1 .margin-check:after
+{
+    width: 100%;
+}
+.judulSection a
+{
+    transition: all .2s ease-in-out;
+}
+.judulSection a:hover
+{
+    transition: all .2s ease-in-out;
+    color: #643599;
+}
+.btn-selengkap
+{
+    border-radius: 15px;
+    border: none;
+    height: 35px;
+    width: 150px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: medium;
+}
+.btn-syarat
+{
+    border-radius: 15px;
+    border: none;
+    height: 40px;
+    width: 200px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: medium;
+}
+.btn-kembali
+{
+    border-radius: 15px;
+    border: none;
+    height: 40px;
+    width: 90px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: medium;
+}
+.btn-guidebook
+{
+    border-radius: 15px;
+    border: none;
+    height: 40px;
+    width: 100%;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: medium;
+}
+#logoMage
+{
+    width: 25%;
+}
+
+#logodesc
+{
+     width: 100%;   
+}
+.vertical-center 
+{
+    position: relative;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span 
+{
+    background: white;
+}
+.barAtas
+{
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    font-size: large;
+    transition: all .5s ease-in-out;
+    padding-bottom: 10px;
+}
+.isi
+{
+    margin-top: 10px;
+    margin-right: 40px;
+	float: right;
+}
+ 
+.isinavbar {
+font-size: large;
+color: white;
+padding: 15px 0px;
+margin: 0px 20px;
+display: inline-block;
+position: relative;
+}
+
+
+.isinavbar::before {
+transition: 300ms;
+height: 5px;
+content: "";
+position: absolute;
+background-color: white;
+}
+
+.perisi::before {
+width: 0%;
+bottom: 10px;
+}
+
+.perisi:hover::before {
+width: 100%;
+}
+.kontak
+{
+    position: absolute;
+    top: 0;
+    display: inline-block;
+    text-align: right;
+    right: 0;
+    margin-right: 80px;
+    margin-top: 25px;
+}
+.kontak img
+{
+    margin-left: 30px;
+}
+.kontak-bawah img:not(#logoFB)
+{
+	margin-top: 20px;
+    margin-left: 20px;
+}
+#logoFB
+{
+    width: 30px;
+    transition: all .2s ease-in-out;
+}
+#logoFB:hover
+{
+    transform: scale(1.5);
+}
+#logoIG
+{
+    width: 30px;
+    transition: all .2s ease-in-out;
+}
+#logoIG:hover
+{
+    transform: scale(1.5);
+}
+#logoTW
+{
+    width: 30px;
+    transition: all .2s ease-in-out;
+}
+#logoTW:hover
+{
+    transform: scale(1.5);
+}
+#logoLine
+{
+    width: 30px;
+    transition: all .2s ease-in-out;
+}
+#logoLine:hover
+{
+    transform: scale(1.5);
+}
+#logoYT
+{
+    width: 30px;
+    transition: all .2s ease-in-out;
+}
+#logoYT:hover
+{
+    transform: scale(1.5);
+}
+.tengah
+{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+	opacity:0;
+	transition: all .5s ease-in-out;
+}
+.tengahOther
+{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    opacity:1!important;
+}
+#logoTengah
+{
+    width: 80%;
+}
+#logoMage-section1
+{
+    margin-top: 25%;
+    margin-left: 20%;
+    width: 100%;
+}
+#tulisanMage-section1
+{
+    margin-top: 20%;
+	margin-left: 10%;
+}
+#tulisanMage-section2
+{
+	width: 70%;
+}
+#tulisanMage-section3
+{
+	width: 100%;
+}
+.penjelasanSection
+{
+    min-height: 50%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#logoApp
+{
+    width:70%;
+}
+#logoGame
+{
+    width: 70%;
+}
+#logoIOT
+{
+    width: 70%;
+}
+#logoOlimpiade
+{
+    width: 70%;
+}
+#logoOlimpiadePopUp
+{
+    width: 25%;
+    transform: translateX(150%);
+}
+#logoESport-section2
+{
+    width: 50%;
+}
+#logoML
+{
+    margin-top: 30px;
+    width: 80%;
+}
+#logoPUBGM
+{
+    margin-top: 30px;
+    width: 80%;
+}
+#logoDOTA
+{
+    margin-top: 30px;
+    width: 80%;
+}
+#logoCSGO
+{
+    margin-top: 30px;
+    width: 80%;
+}
+.btn a
+{
+    color: white;
+}
+.btn
+{
+    opacity: 1;
+    color: white;
+    width: 150px;
+    border-radius: 15px;
+    border-color: white;
+}
+#section3 .penjelasanSection
+{
+    padding-right: 50px;
+}
+.btn-normal
+{
+    background-color: #DF7027;
+    color: white;
+    transition: all .2s ease-in-out;
+}
+.btn-normal:hover
+{
+    background-color: white;
+    color: #DF7027;
+    /*transform: scale(1.1);*/
+}
+.btn-normal-section4
+{
+    background-color: #146EB4;
+    color: white;
+    transition: all .2s ease-in-out;
+}
+.btn-normal-section4:hover
+{
+    background-color: white;
+    color: #146EB4;
+}
+#deskripsiWorkshop
+{
+    padding-left: 20%;
+}
+.pemateri
+{
+    color: white;
+}
+.gallery
+{
+    
+
+}
+.foto-gallery
+{
+    width: 650px;
+    height: 400px;
+}
+.comingsoon
+{
+    text-align: center;
+    /*letter-spacing: 3px;*/
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 3em;
+}
+.footer
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.foto-footer
+{
+    padding-top: 20px;
+    width: 80%; 
+}
+.kartu-info
+{
+    margin-top: 30px;
+}
+.kotak
+{
+    background-color: #241151;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+}
+.kotak img
+{
+    transform: translateY(-30%);
+}
+.kotak .isiKotak
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.kotakKecil
+{
+    font-size: small;
+    margin-top: 50px;
+    background-color: #241151;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+}
+.isiKotakKecil
+{
+    margin-top: 20px;
+}
+.kotakMedium
+{
+    background-color: #241151;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    opacity: 0.95;
+}
+.kotakMedium .isiKotak
+{
+    font-size: small;
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.kotakTalkshow
+{
+    position: relative;
+    background-color: #241151;
+    width: 75%;
+    height: 100%;
+}
+.isiKotakTalkshow
+{
+    padding: 10%;
+}
+.kotakPopup
+{
+    margin-top: 15%;
+    background-color: #241151;
+    position: relative;
+    transform: translateX(20%);
+    width: 480px;
+    height: 300px;
+    border-radius: 15px;
+    z-index: 1;
+    padding: 0;       
+}
+.isiKotakPopup
+{
+    z-index: 2;   
+    transform: translateX(-7%);    
+}
+#tulisanPopup
+{
+    text-align: center;
+}
+#kutipan
+{
+    vertical-align: bottom;
+}
+#pembicara
+{
+    text-align: right;
+}
+#btn-play
+{
+    width: 60px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(200%);
+    z-index: 999;
+	transition: all .2s ease-in-out;
+}
+#btn-play:hover{
+	transform: translateX(-50%) translateY(200%) scale(1.2);
+	}
+.nopadding 
+{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+#fotoTalkshow
+{
+    width: 75%;
+    height: 100%;
+    position: relative;
+    float: right;
+}
+#bg_esport
+{
+    margin-top: -175px;
+    position: absolute;
+    z-index: -1;
+}
+#logoBawah
+{
+    width: 25%;
+}
+button
+{
+	font-family: 'Montserrat'!important;
+	font-size: small;
+    transition: all .2s ease-in-out;
+}
+button:hover
+{
+    transform: scale(1.1);
+}
+#section1
+{
+    height: 100vh;
+    width: 100vw;
+}
+#section2
+{
+    /*margin-bottom: 350px;*/
+}
+#section3
+{
+    /*margin-bottom: 350px;*/
+}
+#section4
+{
+    /*margin-bottom: 350px;*/   
+}
+#section5
+{
+    /*margin-bottom: 350px;*/   
+}
+
+#ikonmateri{
+    position: absolute;
+    left: 25%;
+}
+
+
+
+.carousel-inner>.carousel-item>img{
+    display: inline;
+    height: auto;
+    max-width: 70%;
+    line-height: 1;
+    width: 70%;
+    min-height: 0;
+}
+#particles
+{
+    position: absolute;
+    width: 100vw;
+    height: 75vh;
+}
+textarea
+{
+    width: 100%;
+    text-transform: uppercase;
+    border: 5px solid #00c2ba;
+}
+textarea:focus
+{
+    outline: none;
+}
+.form-jawaban
+{
+    background: transparent;
+    color: white;
+    border: none;
+    text-align: center;
+    letter-spacing: 0.75px;
+}
+#section-soal
+{
+    height: 50vh;
+    width: 100vw;
+}
+#overlay {
+    position: fixed;
+    height: 100%; 
+    width: 100%;
+    top: 0;
+    right: 0;  
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    display: none;
+    z-index: 99999;
+ }
+ 
+ #popup {
+    max-width: 733px;
+    width: 80%;
+    max-height: 750px;
+    height: 90%; 
+    padding: 20px;
+    position: relative;
+    background: black;
+    margin: 20px auto;
+    top: 2.5%;
+    border-radius: 15px;
+ }
+ 
+ #close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: white;
+ }
+ #congrat-popup
+ {
+     width: 90%;
+ }
+#maskot-popup
+{
+    width: 110%;
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    bottom: 0;
+    transform: translate(10%,10%);
+    /* transform: translateX(5%); */
+}
+#found-popup
+{
+    width: 13%;
+    position: absolute;
+    left: 0;
+    transform: translateY(40%);
+    z-index: 2;
+}
+#olimageseru
+{
+    background-color: white; 
+    color: black; 
+    font-size: x-large; 
+    padding: 3px;
+    border-radius: 5px 0px 0px 5px;
+}
+#copy
+{
+    font-size: small;
+    background-color: #FF1D77; 
+    color: white; 
+    border-radius: 0px 5px 5px 0px;
+    padding-top: 14px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+    cursor: pointer;
+    
+}
+#geserkiri
+{
+    transform: translateX(-5%);
+}
+#back
+{
+    width: 30px;
+    height: 40px;
+}
+#SK
+{
+    height: 250px;
+    overflow: scroll;
+    color: black;
+    overflow-x: hidden;
+    background-color: white;
+    padding: 10px;
+}
+@media (max-width: 992px) /*Medium*/ 
+{
+    #logoBawah
+    {
+        width: 50%;
+    }
+    .kotak
+    {
+        margin-bottom: 100px;
+    }
+    .kotakMedium
+    {
+        margin-bottom: 75px;
+    }
+    #section2 .judulSection
+    {
+        margin-top: 100px;
+    }
+    #section2 .margin-check:after 
+    {
+        width: 80%;
+    }
+    #section3 .margin-check:after 
+    {
+        width: 80%;
+    }
+    #section5 .margin-check:after 
+    {
+        width: 105%;
+    }
+    #logoMage-section1
+    {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    #logodesc
+    {
+         width: 60%;   
+    }    
+    #bg_esport
+    {
+        position: relative;
+        width: 80%;
+        height: 30%;
+        margin-top: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 50px;
+    }
+    .kotakTalkshow
+    {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #fotoTalkshow
+    {
+        float: left;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #btn-play
+    {
+        position: absolute;
+        left: 50%;
+        /*transform: translateX(-50%) translateY(285%);*/
+        transform: translateX(-50%) translateY(30vw);
+    }
+	#btn-play:hover{
+	transform: translateX(-50%) translateY(30vw) scale(1.2);
+	}
+	
+    .isiKotakTalkshow
+    {
+        padding-top: 15%;
+    }
+    .section2-index
+    {
+        padding-top: 50%;
+    }
+    #logo-login
+    {
+        display: none;
+    }
+    #popup
+    {
+        max-height: 500px;
+        height: 65%;
+        width: 90%;
+    }
+    #geserkiri
+    {
+        transform: translateX(40%) scale(1);
+    }
+    #maskot-popup
+    {
+        width: 50%;
+        transform: translateX(-65%) translateY(110%);
+    }
+    #found-popup
+    {
+        transform: translateX(25%) translateY(75%);
+        width: 15%;
+    }
+    .isiKotakPopup
+    {
+        transform: scale(0.8) translateX(25%);
+    }
+}
+@media (max-width: 768px) /*Small*/
+{
+
+    
+}
+@media (max-width: 576px)
+{
+    .tengah
+    {
+        left: 5%;
+        top: 30%;
+    }
+	.tengahOther
+    {
+        left: 5%;
+        top: 30%;
+    }
+    #logoTengah
+    {
+        width: 75%;
+    }
+    .isinavbar
+    {
+        margin: 0px 10px;
+    }
+    #btn-play
+    {
+        position: absolute;
+        left: 50%;
+        /*transform: translateX(-50%) translateY(285%);*/
+        transform: translateX(-50%) translateY(48vw);
+    }
+	#btn-play:hover{
+	transform: translateX(-50%) translateY(48vw) scale(1.2);
+    }
+    #judulDevcom
+    {
+        font-size: x-large;
+    }
+    .btn-guidebook
+    {
+        height: 70px;
+        width: 40%;
+    }
+    .kotak-hadiah
+    {
+        padding-top: 10px;
+    }
+    #esport.kotak-hadiah
+    {
+        width: 90%;
+    }
+    .navbar
+    {
+        transform: translateX(20%);
+    }
+    #popup
+    {
+        max-height: 400px;
+        height: 65%;
+        width: 90%;
+    }
+    #geserkiri
+    {
+        transform: translateX(15%) scale(0.7);
+    }
+    #maskot-popup
+    {
+        width: 100%;
+        transform: translateX(-65%) translateY(110%);
+    }
+    #found-popup
+    {
+        transform: translateX(-15%) translateY(75%);
+        width: 20%;
+    }
+    .isiKotakPopup
+    {
+        transform: scale(0.8) translateX(25%);
+    }
+    .btn-syarat
+    {
+        transform: translateY(-75%) scale(0.75);
+    }
+    .popke2
+    {
+        transform: translateY(-10%) scale(0.9);
+    }
+}
+@media (max-width: 992px) and (orientation: landscape)
+{
+    #btn-play
+    {
+        position: absolute;
+        left: 50%;
+        /*transform: translateX(-50%) translateY(285%);*/
+        transform: translateX(-50%) translateY(450%);
+    }
+	#btn-play:hover{
+	transform: translateX(-50%) translateY(450%) scale(1.2);
+    }
+    .btn-guidebook
+    {
+        height: 50px;
+        width: 35%;
+    }
+    #esport.kotak-hadiah
+    {
+        width: 90%;
+    }   
+    .section2-index
+    {
+        padding-top: 110%;
+    }
+    #popup
+    {
+        top: 5%;
+        height: 85%;
+        max-height: 320px;
+        width: 90%;
+    }
+    #geserkiri
+    {
+        transform: translateX(25%) translateY(-25%) scale(0.7);
+    }
+    #maskot-popup
+    {
+        width: 50%;
+        transform: translateX(-65%) translateY(110%);
+    }
+    #found-popup
+    {
+        transform: translateX(130%) translateY(75%);
+        width: 10%;
+    }
+    .isiKotakPopup
+    {
+        transform: scale(0.8) translateX(25%);
+    }
+    .btn-syarat
+    {
+        transform: translateY(-350%) scale(0.75);
+    }
+    .popke2
+    {
+        transform: translateY(-20%) scale(0.7);
+    }
+}
+
+@media (max-width: 568px) and (orientation: landscape)
+{
+    .section2-index
+    {
+        padding-top: 130%;
+    }
+    #popup
+    {
+        top: 1%;
+        max-height: 567px;
+        height: 90%;
+        width: 90%;
+    }
+    .btn-syarat
+    {
+        transform: translateY(-350%) scale(0.75);
+    }
+	
+}
+
+@media (max-width: 480px)
+{
+    .kotak-hadiah{
+        font-size: 35px;
+
+    }
+}
+
+@media (max-width: 390px)
+{
+    .kotak-hadiah{
+        font-size: 30px;
+    }
+}
+@media (max-width: 320px)
+{
+    .kotak-hadiah{
+        height: 100px;
+    }
+    .navbar
+    {
+        transform: translateX(30%);
+    }
+    .popke2
+    {
+        transform: translateY(-15%) scale(0.75);
+    }
+}
+
+.card{
+background-color: #241151;
+text-align: left;
+margin-top: 10px;
+}
+.card-header{
+background-color: #1d0e40;	
+}

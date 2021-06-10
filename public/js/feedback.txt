@@ -1,0 +1,11 @@
+<div class="container">
+        <div class="row align-items-center text-center" style="height: 600px;">
+            <div class="col-lg-12 animated zoomIn" style="animation-duration: 0.75s;">
+                <i class="far fa-thumbs-up" style="font-size: 125px;"></i>
+                <br>
+                <br>
+                <br>
+                <span>Selamat! Jawaban Anda Benar</span>
+            </div>
+        </div>
+    </div>     
